@@ -1,0 +1,715 @@
+{
+ "cells": [
+  {
+   "cell_type": "raw",
+   "id": "6db9ea1f-29b7-4733-9d5f-e1742b56db87",
+   "metadata": {},
+   "source": [
+    "Que.1 >> Explain the key feature of python that make it a popular choice for programing?\n",
+    "\n",
+    "Ans. >>  Python is good standard-level of programming language that universally adopted developing software application and web application. \n",
+    "It is known for its simplicity, flexibility, and ease of use.\n",
+    "Python has gained popularity over the years due to its wide range of features and capabilities. \n",
+    "In this article, we will discuss the top features of Python. \n",
+    "\n",
+    "* Easy to Learn - One of the most significant features of Python is that it is very easy to learn. The language has a simple syntax and structure that makes it easy for beginners to learn and start coding quickly. Python code is also easy to read and understand, which makes it an excellent choice for collaborative projects.\n",
+    "\n",
+    "* Object-Oriented Language - Python is an object-oriented language, which means that it supports concepts such as encapsulation, inheritance, and polymorphism. This makes it easy to write code that is reusable and easy to maintain.\n",
+    " \n",
+    "* High-Level Language - Python is a high-level language, which means that it is closer to human language than machine language. This makes it easy to write code that is easy to understand and maintain.\n",
+    "\n",
+    "* Large Standard Library- Python has a large standard library that includes modules for different tasks such as web development, networking, data processing, and more. This makes it easy to develop applications without having to write custom code."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d6813812-ee7e-491d-a0f8-b15bf640c5b2",
+   "metadata": {},
+   "source": [
+    "Que.2>> Describe  the role of predefined keywords in python and provide examples of how they are used in a program?\n",
+    "\n",
+    "Ans. >> Python keywords are special reserved words that have specific meanings and purposes and can’t be used for anything but those specific purposes. These keywords are always available—you’ll never have to import them into your code.\n",
+    "Python keywords are different from Python’s built-in functions and types. The built-in functions and types are also always available, but they aren’t as restrictive as the keywords in their usage.\n",
+    "The list of Python keywords has changed over time. For example, the await and async keywords weren’t added until Python 3.7. Also, both print and exec were keywords in Python 2.7 but have been turned into built-in functions in Python 3+ and no longer appear in the list of keywords.\n",
+    "\n",
+    "Few examles of most used keywords are >>\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "3a2060e7-692c-4169-a0f2-aed77d629d8b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "\n",
+      "Here is a list of the Python keywords.  Enter any keyword to get more help.\n",
+      "\n",
+      "False               class               from                or\n",
+      "None                continue            global              pass\n",
+      "True                def                 if                  raise\n",
+      "and                 del                 import              return\n",
+      "as                  elif                in                  try\n",
+      "assert              else                is                  while\n",
+      "async               except              lambda              with\n",
+      "await               finally             nonlocal            yield\n",
+      "break               for                 not                 \n",
+      "\n"
+     ]
+    }
+   ],
+   "source": [
+    "help('keywords')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "7370d0a4-c185-41fa-bd6d-f58402eca7fc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x = True \n",
+    "x is True "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "b9fe7616-9e57-4a73-ad2f-c22612a897dd",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x = True\n",
+    "x is False"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "ca1a44f7-d293-4362-ac1e-1f0ee533b1a6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = (5 > 3 and 5 < 10)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "84058943-1444-4239-89fc-992c7553d831",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "True"
+      ]
+     },
+     "execution_count": 16,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "cea25560-1771-4d10-8780-5f8ae6b8a6fe",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Yes\n"
+     ]
+    }
+   ],
+   "source": [
+    "x = 10\n",
+    "if x > 2:\n",
+    "    print(\"Yes\")\n",
+    "else:\n",
+    "    (\"no\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "661d2fbe-56e2-4324-8728-261ad0d416ab",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Yash Varun rishi "
+     ]
+    }
+   ],
+   "source": [
+    "x = [ \"Yash\" , \"Varun\"  , \"rishi\"]\n",
+    "for b in x:\n",
+    "    print(b , end = \" \")"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "e75b630b-8769-4bd0-b975-be471b77a1c6",
+   "metadata": {},
+   "source": [
+    "Que.3 >>Compare the contrast mutuable and immutuable oobjects in pythons?\n",
+    "\n",
+    "Ans. >> Mutable objects in Python are those that can be changed after they are created, like lists or dictionaries. Immutable objects, on the other hand, cannot be changed after they are created, such as strings, integers, or tuples.\n",
+    "\n",
+    "Mutable Objects\t- Lists, Dictionaries , Sets\n",
+    "Immutable Objects - Numbers , Strings , Tupples\n",
+    "\n",
+    "\n",
+    "examples = \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "af222f1b-e9cf-4bce-bb43-8771a0b2f705",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[10, 220, 'Yash', 40]"
+      ]
+     },
+     "execution_count": 47,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Marks = [ 10 ,220 , \"Yash\", 40, ]\n",
+    "Marks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "7ba51e6f-638f-4094-bd98-b490ac4c13ad",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "list"
+      ]
+     },
+     "execution_count": 43,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(Marks)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "306ffa80-72a8-403a-aa75-ae6f1f8afad3",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Yash'"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Marks[2]"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ef87a596-ebda-4a0b-8cf1-b0551d3a0579",
+   "metadata": {},
+   "source": [
+    "Marks[2] = \"Yashi\"\n",
+    "Marks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "8472d48e-2d50-44ad-8eed-5fb3decfff02",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = \"venom\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "e7a46718-bc8d-487b-a2cc-55d7543f898a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'venom'"
+      ]
+     },
+     "execution_count": 54,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "f859366a-4a45-4d01-8668-b5a469c0aeb8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'m'"
+      ]
+     },
+     "execution_count": 55,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a[4]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "a300e215-8211-4cb7-8c11-4f427e6b7b77",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "TypeError",
+     "evalue": "'str' object does not support item assignment",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[57], line 1\u001b[0m\n\u001b[0;32m----> 1\u001b[0m \u001b[43ma\u001b[49m\u001b[43m[\u001b[49m\u001b[38;5;241;43m4\u001b[39;49m\u001b[43m]\u001b[49m\u001b[38;5;241m=\u001b[39m \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124mvenon\u001b[39m\u001b[38;5;124m\"\u001b[39m\n",
+      "\u001b[0;31mTypeError\u001b[0m: 'str' object does not support item assignment"
+     ]
+    }
+   ],
+   "source": [
+    "a[4]= \"venon\""
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6d14e670-ba91-464d-9c0b-d4b0db5c2237",
+   "metadata": {},
+   "source": [
+    "Que.4 >> Discuss the diffrent types of operators in python and provide examples of how they are used ?\n",
+    "\n",
+    "Ans. >> Python, operators are special symbols or keywords that carry out operations on values and python variables. They serve as a basis for expressions, which are used to modify data and execute computations. Python contains several operators, each with its unique purpose.\n",
+    "\n",
+    "\n",
+    "Types of Python Operators\n",
+    "Python language supports various types of operators, which are:\n",
+    "* Arithmetic Operators\n",
+    "* Comparison (Relational) Operators\n",
+    "* Assignment Operators\n",
+    "* Logical Operators\n",
+    "* Bitwise Operators\n",
+    "* Membership Operators\n",
+    "* Identity Operators\n",
+    "\n",
+    "1.Python Arithmetic Operators - Mathematical operations including addition, subtraction, multiplication, and division are commonly carried out using Python arithmetic operators.\n",
+    "They are compatible with integers, variables, and expressions.\n",
+    "In addition to the standard arithmetic operators, there are operators for modulus, exponentiation, and floor division.\n",
+    "example"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "a981fb83-b223-4e1f-8b05-20fa7804473d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "30"
+      ]
+     },
+     "execution_count": 65,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "b = 20\n",
+    "a+b"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bbff4ac8-2dd5-4a53-9df0-00add7d0cdbf",
+   "metadata": {},
+   "source": [
+    "2 .Python Comparison Operators - To compare two values, Python comparison operators are needed.\n",
+    "Based on the comparison, they produce a Boolean value (True or False).\n",
+    "example"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "6c872d33-57ce-4af5-908c-01708c33a33c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 66,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x = 5 \n",
+    "y = 6\n",
+    "x>y"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b9e107ba-eaf4-4443-b976-b15dbbe7aae9",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "3.Python Assignment Operators - Python assignment operators are used to assign values to variables in Python.\n",
+    "The single equal symbol (=) is the most fundamental assignment operator.\n",
+    "It assigns the value on the operator's right side to the variable on the operator's left side.\n",
+    "example\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "d8fe52e5-b175-46f7-9f92-99e8def027f2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 67,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "b = 20\n",
+    "a == b"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "326bf8bc-81d8-4346-885b-e5fb01acd087",
+   "metadata": {},
+   "source": [
+    "Que.5>>  Explain the concept of type casting in Python with examples?\n",
+    "\n",
+    "Ans  >> The conversion of one data type into the other data type is known as type casting in python or type conversion in python. Python supports a wide variety of functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(), etc. for the type casting in python.\n",
+    "\n",
+    " 1. Explicit Conversion(Explicit type casting in python), and\n",
+    " 2. Implicit Conversion(Implicit type casting in python)\n",
+    "Examples"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "d07d6d20-30b8-4e09-8f68-6f76ebb9551a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = 10\n",
+    "a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 69,
+   "id": "0b9c1b50-8ba2-48ac-b334-2fdf1cacdc01",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 69,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "b3d8f38f-2f95-4345-a4e8-3b5caf7f47c5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "10.0"
+      ]
+     },
+     "execution_count": 70,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "float(a)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f076b47e-3d87-4ead-b788-e21fcd31c66a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a =  \"Yash\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "c1a00430-aad2-4945-9a5e-1f85cec4e2c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "5"
+      ]
+     },
+     "execution_count": 71,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a = \"2\"\n",
+    "b = 3\n",
+    "int(a)+b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "bf4a1ea2-aac3-4e47-b10b-73c3a3068b9d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "62.33"
+      ]
+     },
+     "execution_count": 72,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "b = 62.33\n",
+    "b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "be6d1109-b257-4148-93f0-830c87eede3f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "62"
+      ]
+     },
+     "execution_count": 73,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "int(b)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 75,
+   "id": "cf9bb721-d756-4b06-9009-07b0b96eaedc",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "62"
+      ]
+     },
+     "execution_count": 75,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "float = int(b)\n",
+    "float"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 77,
+   "id": "c6fde2ad-5518-4d69-ac4f-79b0288c037d",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "62"
+      ]
+     },
+     "execution_count": 77,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "float_value=int(b)\n",
+    "float_value"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 78,
+   "id": "cbdfaf82-4f35-4ff2-b15b-acab765148f5",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 78,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(float_value)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "08941ebd-10ce-421b-ad0a-b51135b08b67",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

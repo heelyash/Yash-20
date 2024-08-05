@@ -712,4 +712,77 @@
  },
  "nbformat": 4,
  "nbformat_minor": 5
-}
+
+Que.6 How to conditional statements work in pythons?
+
+Ans>> Types of Conditional Statement in Python
+1. If Conditional Statement in Python
+2. If else Conditional Statement in Python
+3. Nested if..else Conditional Statement in Python
+4. If-elif-else Conditional Statement in Python
+5. Ternary Expression Conditional Statement in Python
+Best Practices for Using Conditional Statements
+
+1. If Conditional Statement in Python
+If the simple code of block is to be performed if the condition holds then the if statement is used. Here the condition mentioned holds then the code of the block runs otherwise not.
+
+a = 100
+if a > 0: #execute the if bock, if the condition is True
+    print("The number is grater than 0.")
+
+weather = "rainy"
+if weather == "rainy":
+    print("I will not play cricket")
+
+temp = 30
+if temp>25:
+    print("room temp")
+
+""Que. 7 Describe the different type oof loops in pythons and thier use cases with examples?
+
+""Ans >> 1. For Loop
+A for loop in Python is used to iterate over a sequence (list, tuple, set, dictionary, and string).
+
+'number = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+''for num in number:
+   "" if (num == 3) or (num == 7):
+    ""    continue
+    ""print(num)
+
+
+yntax: for iterating_var in sequence:  
+
+   statement(s) 
+
+Example:
+
+for-loop-ex.
+
+Fig: for loop example
+
+The preceding code executes as follows: The variable i is a placeholder for every item in your iterable object. The loop iterates as many times as the number of elements and prints the elements serially.
+
+
+2. While Loop
+The while loop is used to execute a set of statements as long as a condition is true.
+
+Flowchart:
+
+whileloop
+
+Fig: While loop flowchart
+
+Syntax: while expression:  
+
+    statements  
+
+Example:
+
+ while-loop
+
+Fig: While loop
+
+The preceding code executes as follows: We assign the value to variable x as 1. Until the value of x is less than 3, the loop continues and prints the numbers. 
+
+
+
